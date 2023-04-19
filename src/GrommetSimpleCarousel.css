@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+
+.cPdAzp {
+  padding: 0px !important;
+}
+
+.kqmDKi {
+  height: 100vh;
+}
+
+.gIiCYk {
+  line-height: normal !important;
+}
+
+.hero-container {
+    padding: 50px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 40%
+}
+
+.hero-child {
+  padding: 50px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 45%
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 53px;
+}
+
+.hero-description {
+    font-size: 25px;
+}
+
+.hero-child-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero-child-img-opaque {
+  opacity: 0;
+}
+
+.hero-button {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.text-inline {
+  inline-size: 150px;
+}
+
+.text {
+  text-align: left;
+  font-family: MetricHPEXS,Arial,sans-serif;
+}
+
+.btn-typo4.primary {
+  background: linear-gradient(60deg,#01A982 0 13%,#1cd3a8 20%,#01A982 27%,#01A982);
+  background-position: 99% 50%;
+  background-size: 200% 200%;
+  border: var(--btn-v4-border-width) solid transparent;
+  color: #FFFFFF;
+  transition: background-position .5s;
+}
+
+.btn-typo4.rounded {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 400px;
+  min-height: 36px;
+  min-width: 0;
+  padding: 10px 20px;;
+}
+
+.btn-typo4 {
+  border-radius: 4px;
+  display: inline-block;
+  font-family: MetricHPEXS,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 37px;
+  line-height: 25px;
+  padding: 4px 23px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn-typo4 .icon.arrow-icon {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath fill='%2301A982' d='M9.586 6 5.893 2.307 7.307.893l5.4 5.4.707.707-.707.707-5.4 5.4-1.414-1.414L9.586 8H0V6h9.586Z'/%3E%3C/svg%3E") no-repeat
+}
+
+.btn-ref {
+  text-decoration: none;
+}
+
+.float-container {
+  padding: 50px;
+}
+
+.float-child {
+  width: 40%;
+  float: left;
+  padding: 50px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.wrapper {
+  border : 2px solid #000;
+  overflow:hidden;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: aliceblue;
+  padding: 50px;
+  flex: 50%;
+}
+
+.flex-item-left {
+  padding: 50px;
+  flex: 50%;
+  /* border: 2px solid white; */
+}
+
+.flex-item-right {
+  padding: 50px;
+  flex: 50%;
+  /* border: 2px solid red; */
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+  }
+
+  .btn-typo4.rounded {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item-left {
+    padding: 0px;
+  }
+
+  .flex-item-right {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 800px) {
+  .text-inline {
+    inline-size: 270px;
+  }
+}
